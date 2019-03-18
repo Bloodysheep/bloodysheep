@@ -1,0 +1,46 @@
+
+h1{
+    color:rgb(4, 3, 43);
+text-align: center;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+margin: 0.3em 3em 0.3em 3em;
+padding: 20px;
+font-size: 90px;
+border:10px dashed purple;
+}
+
+section{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+p{
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 50px;
+   margin: 1em;
+  display: flex;
+  align-items: center;
+}
+body{
+background-color:beige;
+}
+img{
+margin: 1em;
+width:auto;
+align-items: center;
+}
+img:hover{
+    transition:1s;
+border-radius: 50%;
+}
+footer{
+    position:relative;
+    bottom:0;
+    font-size: 15px;
+    padding:20px;
+    display: flex;
+
+    justify-content: flex-end;
+
+}
